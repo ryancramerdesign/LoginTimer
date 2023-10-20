@@ -1,7 +1,6 @@
 # Login Timer for ProcessWire
 
-**Prevents timing attacks by enabling normalization of login 
-times so that a failed login is no faster than a successful login.**
+### Prevents timing attacks by enabling normalization of login times so that a failed login is no faster than a successful login.
 
 This prevents timing attacks from discovering any information 
 about good vs. bad user names or passwords based on the time 
@@ -9,7 +8,8 @@ taken to process the login request. It does this by remembering
 how long successful logins take and applying that same amount of 
 time to failed logins.
 
-[Details and documentation](https://processwire.com/blog/posts/timing-attacks-and-how-to-prevent-them)
+Please see the post with [Details and documentation](https://processwire.com/blog/posts/timing-attacks-and-how-to-prevent-them/)
+for this module. 
 
 ### Installation 
 
